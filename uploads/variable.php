@@ -1,0 +1,6 @@
+<?php
+$userName = "ÕÅÈý";
+$userName = "ls";
+echo $userName;
+
+?>

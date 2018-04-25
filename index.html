@@ -1,0 +1,37 @@
+<h2>用户注册系统<h2/>
+<hr/>
+<form action="register.php" method="post" enctype="multipart/form-data">
+用 户 名:
+<input type="text" name="userName" size="20" maxlength="15" value="必须填写用户名"/>
+<br/>
+登陆密码:
+<input type="password" name="password" size="20" maxlength="15" />
+<br/>
+确认密码:
+<input type="password" name="confirmPassword" size="20" maxlength="15" />
+<br/>
+选择性别:
+<input name="sex" type="radio" value="male" checked />男
+<input name="sex" type="radio" value="female" />女
+<br/>
+个人爱好:
+<input name="hobby[]" type="checkbox" value="music" checked />音乐
+<input name="hobby[]" type="checkbox" value="game" />游戏
+<input name="hobby[]" type="checkbox" value="movie" />电影
+<br/>
+个人相片:
+<input type="hidden" name="MAX_FILE_SIZE" value="4096" />
+<input type="file" name="myPicture" size="25" maxlength="100" />
+<br/>
+备注信息:
+<textarea name="remark" cols="30" rows="4">请填写备注信息</textarea>
+<br/>
+<input type="submit" name="submit" value="注册" />
+<input type="reset" name="cancle" value="重新填写" />
+<a href="login.html" class="button">登陆</a>
+</form>
+
+
+
+
+
